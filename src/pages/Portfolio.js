@@ -37,6 +37,13 @@ import rmsProject from '../assets/images/rmeec-rms/rms_project.png';
 import rmsSummary from '../assets/images/rmeec-rms/rms_summary.png';
 import rmsTransaction from '../assets/images/rmeec-rms/rms_transaction.png';
 
+// FONT AWESOME ICONS
+import {
+  FaGithub,
+  FaGlobe,
+} from 'react-icons/fa';
+
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="mb-2 mb-lg-5 pt-5">
@@ -114,7 +121,7 @@ const Portfolio = () => {
               <div className="d-flex justify-content-center mt-3">
                 <div className="p-bottom pb-3">
                   <a target="_blank" href="https://github.com/imfranz25/huremas" className="text-light p-link" rel="noreferrer">
-                  <i className="fab fa-github"></i>
+                  <FaGithub />
                 </a>
                 </div>
               </div>
@@ -171,11 +178,11 @@ const Portfolio = () => {
               </div>
               <div className="d-flex justify-content-center mt-3 bg-dark">
                 <div className="p-bottom pb-3">
-                  <a target="_blank" href="https://github.com/imfranz25/syratech-pos-sys" className="p-link text-light" rel="noreferrer">
-                    <i className="fab fa-github"></i>
+                  <a target="_blank" href="https://github.com/imfranz25/syratech-pos-sys" className="p-link text-light mx-2" rel="noreferrer">
+                    <FaGithub />
                   </a>
-                  <a target="_blank" href="https://syratechpos.000webhostapp.com" className="p-link text-light" rel="noreferrer">
-                    <i className="fa fa-globe m-1"></i>
+                  <a target="_blank" href="https://syratechpos.000webhostapp.com" className="p-link text-light mx-2" rel="noreferrer" >
+                    <FaGlobe />
                   </a>
                 </div>
               </div>
@@ -245,7 +252,7 @@ const Portfolio = () => {
               <div className="d-flex justify-content-center mt-3 bg-dark">
                 <div className="p-bottom pb-3">
                   <a target="_blank" href="https://github.com/imfranz25/RMS-for-RMEEC" className="p-link text-light" rel="noreferrer">
-                    <i className="fab fa-github"></i>
+                    <FaGithub />
                   </a>
                 </div>
               </div>
@@ -268,7 +275,7 @@ const Portfolio = () => {
               <div className="d-flex justify-content-center mt-3 bg-dark">
                 <div className="p-bottom pb-3">
                   <a target="_blank" href="https://github.com/imfranz25/Gible-Applet" className="p-link text-light" rel="noreferrer">
-                    <i className="fab fa-github"></i>
+                    <FaGithub />
                   </a>
                 </div>
               </div>
