@@ -1,7 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 
 // FONT AWESOME ICONS
-import { FaFacebookF } from 'react-icons/fa';
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+} from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -44,7 +51,7 @@ const Home = () => {
               data-aos-duration="600"
               data-aos-offset="0"
             >
-              <i><FaFacebookF /></i>
+              <FaFacebookF />
             </a>
             <a
               target="_blank"
@@ -55,7 +62,7 @@ const Home = () => {
               data-aos-duration="500"
               data-aos-offset="0"
             >
-              <i className="fab fa-twitter"></i>
+              <FaTwitter />
             </a>
             <a
               target="_blank"
@@ -66,7 +73,7 @@ const Home = () => {
               data-aos-duration="400"
               data-aos-offset="0"
             >
-              <i className="fab fa-instagram"></i>
+              <FaInstagram />
             </a>
             <a
               target="_blank"
@@ -77,7 +84,7 @@ const Home = () => {
               data-aos-duration="400"
               data-aos-offset="0"
             >
-              <i className="fab fa-github"></i>
+              <FaGithub />
             </a>
             <a
               target="_blank"
@@ -88,7 +95,7 @@ const Home = () => {
               data-aos-duration="500"
               data-aos-offset="0"
             >
-              <i className="fab fa-linkedin"></i>
+              <FaLinkedin />
             </a>
             <a
               target="_blank"
@@ -99,7 +106,7 @@ const Home = () => {
               data-aos-duration="600"
               data-aos-offset="0"
             >
-              <i className="fa fa-envelope"></i>
+              <FaEnvelope />
             </a>
           </h4>
           <p className="text-center pt-1 pt-md-3">
