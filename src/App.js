@@ -6,6 +6,7 @@ import Header from "./pages/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Portfolio />
     </>
   )
 
