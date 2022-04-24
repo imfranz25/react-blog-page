@@ -127,8 +127,8 @@ body {
 
 /* ========================Navbar Shrink====================== */
 
-
-#nav-top.navbar-shrink {
+//#nav-top.navbar-shrink { -> not working in react
+#nav-top {
   transition: .3s;
   padding-top: .6rem;
   padding-bottom: .6rem;

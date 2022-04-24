@@ -1,10 +1,11 @@
 //import {Routes, Route} from 'react-router-dom';
-import useScript from "./components/UseScript";
+import useScript from "./pages/UseScript";
 
 // COMPONENTS
-import Header from "./components/Header";
-import Home from "./components/Home";
-import About from "./components/About";
+import Header from "./pages/Header";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Skills />
     </>
   )
 
