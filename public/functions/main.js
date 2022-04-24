@@ -6,7 +6,7 @@
   });
 
 	// Load Particles
-	particlesJS.load('particles', 'assets/particles.json',function(){});
+	particlesJS.load('particles', 'assets/particles/particles.json',function(){});
 
 	// Show Nav Home Button -> If user scrolled 20px from the top
 	const home = $("#nav-home");
