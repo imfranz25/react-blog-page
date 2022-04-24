@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
+import Footer from "./pages/Footer";
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
+      <Footer />
+      <button class="m-5 bg-warning border-0 p-0 rounded d-none" id="nav-home">
+        <a href="#home" class="px-3"><i class="fa fa-arrow-up text-light py-2 my-1" rel="noreferrer"></i></a>
+      </button>
     </>
   )
 
