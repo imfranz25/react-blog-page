@@ -9,12 +9,14 @@ import NavBar from './components/NavBar';
 import SideBar from './pages/SideBar';
 import {Routes, Route} from 'react-router-dom';
 import SubscribeModal from './components/SubscribeModal';
+import CreateBlogModal from './components/CreateBlogModal';
 
 function App() {
   return (
     <div className="container">
       <NavBar />
-      <SubscribeModal/>
+      <SubscribeModal />
+      <CreateBlogModal />
       <div className='page-container'>
         <div className='row mb-5 pb-3'>
           <div className='col-md-8 container'>

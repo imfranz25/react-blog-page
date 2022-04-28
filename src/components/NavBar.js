@@ -8,7 +8,7 @@ const NavBar = () => (
       </div>
       <div className='col-md-5'>
         <button className='px-5 py-3 border border-secondary btn btn-light mx-3 header-btn' data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe</button>
-        <button className='px-5 py-3 text-white btn btn-dark mx-3 header-btn'>Create Blog</button>
+        <button className='px-5 py-3 text-white btn btn-dark mx-3 header-btn' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create Blog</button>
       </div>
     </div>
     <ul className='p-0 py-3 nav-list'>
