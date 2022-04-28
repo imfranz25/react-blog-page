@@ -14,10 +14,18 @@
   .nav-list {
     display: flex;
     list-style: none;
-    padding: 30px 0px 30px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    .navi-link {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+    .navi-link:hover {
+      color: lightseagreen;
+    }
   }
+
   .blog-brand {
     display: flex;
     align-items: center;

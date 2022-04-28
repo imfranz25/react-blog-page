@@ -11,17 +11,15 @@ const NavBar = () => (
         <button className='px-5 py-3 text-white btn btn-dark mx-3 header-btn'>Create Blog</button>
       </div>
     </div>
-    <ul className='nav-list'>
+    <ul className='p-0 py-3 nav-list'>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/" className='navi-link me-4'>Home</Link>
       </li>
-
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/about" className='navi-link me-4'>About</Link>
       </li>
-
       <li>
-        <Link to="/articles-list">Articles</Link>
+        <Link to="/articles-list" className='navi-link me-4'>Articles</Link>
       </li>
     </ul>
   </nav>
