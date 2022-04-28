@@ -9,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import './css/components/NavBar.scss';
 import './css/SideBar.scss';
 import "./css/HomePage.scss";
+import "./css/AboutPage.scss";
 
 
 ReactDOM.render(
