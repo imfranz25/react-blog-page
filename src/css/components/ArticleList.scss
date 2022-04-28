@@ -1,0 +1,23 @@
+.list-container {
+  .article {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(125, 125, 125,.2);
+    box-shadow: 10px 8px rgb(37, 0, 0);
+    .article-titles {
+      text-shadow: 1px 1px gray;
+    }
+    .hash{
+      animation: hashy infinite 4s;
+      text-shadow: 2px 1px black;
+    }
+    @keyframes hashy {
+      0%{color: greenyellow;}
+      20%{opacity: .7;}
+      40%{color: red;}
+      60%{opacity: .7;}
+      80%{color: purple;}
+      100%{opacity: .7;}
+    }
+  }
+}
