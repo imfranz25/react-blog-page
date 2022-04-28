@@ -6,7 +6,7 @@ import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlesPage from './pages/ArticlesPage';
 import NotFoundPage from './pages/NotFoundPage';
 import NavBar from './components/NavBar';
-import SideBar from './components/SideBar';
+import SideBar from './pages/SideBar';
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <div className="container">
       <NavBar />
       <div className='page-container'>
-        <div className='row'>
+        <div className='row container mb-5 pb-3'>
           <div className='col-md-8'>
             <Routes>
               <Route path="/" element={<HomePage />} />

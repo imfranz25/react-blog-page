@@ -4,7 +4,7 @@ const NavBar = () => (
   <nav className='container fixed-top nav-container'>
     <div className='row py-5'>
       <div className='col-md-7 blog-brand'>
-        <h1>fRanz Blog</h1>
+        <h1 className='brand-logo'>fR@nz BlogPage</h1>
       </div>
       <div className='col-md-5'>
         <button className='px-5 py-3 border border-secondary btn btn-light mx-3 header-btn'>Subscribe</button>
