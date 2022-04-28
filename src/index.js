@@ -1,13 +1,10 @@
-// NATIVE IMPORTS
 import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom';
-
 // STYLES
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './css/index.css';
-import './css/main.scss';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle'
 
 ReactDOM.render(
   <Router>
@@ -15,4 +12,3 @@ ReactDOM.render(
   </Router>,
   document.getElementById('root')
 );
-

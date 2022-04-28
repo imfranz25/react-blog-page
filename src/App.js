@@ -1,38 +1,30 @@
-//import {Routes, Route} from 'react-router-dom';
-import useScript from "./pages/UseScript";
-
-// COMPONENTS
-import Header from "./pages/Header";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Portfolio from "./pages/Portfolio";
-import Footer from "./pages/Footer";
+import React from 'react';
+import './App.css';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ArticlesListPage from './pages/ArticlesListPage';
+import ArticlesPage from './pages/ArticlesPage';
+import NotFoundPage from './pages/NotFoundPage';
+import NavBar from './components/NavBar';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
-
-  // CUSTOME JS -> CONFIGS
-  useScript('./functions/p-slider.js');
-  useScript('./functions/type-writer.js');
-  useScript('./functions/main.js');
-
   return (
-    <>
-      {/* <!-- Particles (BG) --> */}
-	    <div id="particles"></div>
-      {/* Components */}
-      <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Footer />
-      <button class="m-5 bg-warning border-0 p-0 rounded d-none" id="nav-home">
-        <a href="#home" class="px-3"><i class="fa fa-arrow-up text-light py-2 my-1" rel="noreferrer"></i></a>
-      </button>
-    </>
+    <div className="container">
+      <NavBar />
+      <div className='mt-5 pt-5'>
+        <div className='mt-5 pt-5'>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/articles-list" element={<ArticlesListPage />} />
+            <Route path="/articles-page/:name" element={<ArticlesPage />} />
+            <Route path="/*" element={<NotFoundPage />} />
+          </Routes>
+        </div>
+      </div>
+    </div>
   )
-
 }
 
 export default App;
