@@ -2,8 +2,19 @@
   .card{
     box-shadow: 2px 1px 5px gray;
     border-radius: 50px;
+    margin-bottom: 60px;
     .email-me {
       text-decoration: none;
     }
+    .img-container {
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 330px;
+        border-radius: 20px;
+      }
+    }
+
   }
 }
