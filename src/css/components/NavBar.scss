@@ -1,4 +1,13 @@
 .nav-container {
+  background:white;
+  .brand-logo {
+    font-size: 60px;
+    font-weight: 1000;
+    text-shadow: 3px 2px cyan;
+  }
+  .brand-logo:hover {
+    text-shadow: 3px 2px 50px cyan;
+  }
   .header-btn{
     font-size: 20px;
     border-radius: 40px;
