@@ -7,7 +7,7 @@ const NavBar = () => (
         <h1 className='brand-logo'>fR@nz BlogPage</h1>
       </div>
       <div className='col-md-5'>
-        <button className='px-5 py-3 border border-secondary btn btn-light mx-3 header-btn'>Subscribe</button>
+        <button className='px-5 py-3 border border-secondary btn btn-light mx-3 header-btn' data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe</button>
         <button className='px-5 py-3 text-white btn btn-dark mx-3 header-btn'>Create Blog</button>
       </div>
     </div>

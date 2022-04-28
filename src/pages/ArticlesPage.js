@@ -25,7 +25,7 @@ const ArticlesPage = () => {
   return (
     <div className='article-content'>
       <div className='selected-article'>
-        <div classname='article-header'>{article.date} &#183; {article.read}</div>
+        <div classname='article-header'>{article.date} &#183; {article.read} read</div>
         <h1 className="article-title">{article.title}</h1>
         {article.content.map((paragraph, key) => (
           <p key={key}>{paragraph}</p>
