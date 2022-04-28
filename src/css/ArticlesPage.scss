@@ -7,3 +7,20 @@
     font-weight: 700;
   }
 }
+.article-content {
+  .other-articles,
+  .article-title{
+    font-weight: 800;
+    text-shadow: 3px 2px gray;
+  }
+  .selected-article{
+    .article-title{
+      font-size: 54px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+}

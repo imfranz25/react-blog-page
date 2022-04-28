@@ -23,14 +23,18 @@ const ArticlesPage = () => {
   const otherArticles = articleContent.filter(article => article.name !== name);
 
   return (
-    <>
-      <h1>{article.title}</h1>
-      {article.content.map((paragraph, key) => (
-        <p key={key}>{paragraph}</p>
-      ))}
-      <h2>Other Articles</h2>
+    <div className='article-content'>
+      <div className='selected-article'>
+        <div classname='article-header'>{article.date} &#183; {article.read}</div>
+        <h1 className="article-title">{article.title}</h1>
+        {article.content.map((paragraph, key) => (
+          <p key={key}>{paragraph}</p>
+        ))}
+      </div>
+      <hr className="my-5" />
+      <h2 className="mt-3 py-2 other-articles"><span className="text-warning">O</span>ther Articles</h2>
       <ArticlesList articles={otherArticles} />
-    </>
+    </div>
   )
 }
 

@@ -6,7 +6,10 @@ const articles = [
     read: '5 min',
     content: [
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?'
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
     ]
   },
 
@@ -17,7 +20,10 @@ const articles = [
     read: '2 min',
     content: [
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?'
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
     ]
   },
 
@@ -28,7 +34,9 @@ const articles = [
     read: '10 min',
     content: [
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?'
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla qui nobis, alias quis dicta impedit perferendis consectetur eius tenetur quia molestias sit officia amet excepturi nostrum?',
     ]
   }
 ];
