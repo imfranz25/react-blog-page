@@ -11,6 +11,7 @@ import './css/components/ArticleList.scss';
 import './css/SideBar.scss';
 import "./css/HomePage.scss";
 import "./css/AboutPage.scss";
+import "./css/ArticlesPage.scss";
 
 
 ReactDOM.render(

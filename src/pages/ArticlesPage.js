@@ -1,5 +1,5 @@
 import React from "react";
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import articleContent from './article-content';
 import ArticlesList from '../components/ArticlesList';
 
@@ -7,7 +7,18 @@ const ArticlesPage = () => {
   const {name} = useParams();
   const article = articleContent.find(article => article.name === name);
 
-  if(!article) return <h1>Article does not exist!</h1>
+  if(!article) {
+    return (
+      <div className="no-article">
+        <h1 className='not-exist bg-danger text-white text-center py-4'>Article does not exist!</h1>
+        <Link to='/articles-list'>
+          <h6 className="text-center mt-5">
+            <button className='btn btn-warning text-white'>Go Back to Articles</button>
+          </h6>
+        </Link>
+      </div>
+    )
+  }
 
   const otherArticles = articleContent.filter(article => article.name !== name);
 
