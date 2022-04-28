@@ -14,8 +14,8 @@ function App() {
     <div className="container">
       <NavBar />
       <div className='page-container'>
-        <div className='row container mb-5 pb-3'>
-          <div className='col-md-8'>
+        <div className='row mb-5 pb-3'>
+          <div className='col-md-8 container'>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />
