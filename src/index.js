@@ -5,6 +5,9 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'
+// CUSTOM STYLES
+import './css/components/NavBar.scss';
+
 
 ReactDOM.render(
   <Router>

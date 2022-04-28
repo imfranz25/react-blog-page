@@ -1,18 +1,17 @@
 import {Link} from 'react-router-dom';
-import './../css/components/NavBar.scss';
 
 const NavBar = () => (
-  <nav className='container fixed-top'>
-    <div className='row'>
-      <div className='col-md-9'>
-        Brand
+  <nav className='container fixed-top nav-container'>
+    <div className='row py-5'>
+      <div className='col-md-7 blog-brand'>
+        <h1>fRanz Blog</h1>
       </div>
-      <div className='col-md-9'>
-        <button className='p-3 border border-secondary'>Subscribe</button>
-        <button className='p-3 text-white bg-dark'>Compose Blog</button>
+      <div className='col-md-5'>
+        <button className='px-5 py-3 border border-secondary btn btn-light mx-3 header-btn'>Subscribe</button>
+        <button className='px-5 py-3 text-white btn btn-dark mx-3 header-btn'>Create Blog</button>
       </div>
     </div>
-    <ul>
+    <ul className='nav-list'>
       <li>
         <Link to="/">Home</Link>
       </li>
